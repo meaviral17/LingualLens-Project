@@ -188,9 +188,13 @@ def get_st_button_a_tag(url_link, button_name):
     lineHeight: 1.6;
     width: auto;
     userSelect: none;
-    backgroundColor: #FFFFFF;
-    border: 1px solid rgba(49, 51, 63, 0.2);">{button_name}</button></a>
+    backgroundColor: #24252E;
+    border: 1px solid rgba(49, 51, 63, 0.2);
+    color: #FFFFFF;">{button_name}</button></a>
     '''
+st.write("", size="small")
+st.write("", size="small")
+st.write("", size="small")
 st.markdown(get_st_button_a_tag('https://github.com/meaviral17/LingualLens-Project', 'GitHub Repository'), unsafe_allow_html=True)
 st.write("Developed by Aviral Srivastava.", size="small")
 
