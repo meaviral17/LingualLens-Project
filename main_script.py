@@ -27,11 +27,11 @@ cus_css = """
         border-radius: 5px !important;
     }
     .stSelectbox {
-        background-color: #fff !important;
+        background-color: #24252E !important;
         color: #333 !important;
         font-weight: bold !important;
         border-radius: 5px !important;
-        height: 10px !important; 
+        height: 50px !important; 
     }
     [data-testid="stAppViewContainer"] {
     background-color: #00008B;
