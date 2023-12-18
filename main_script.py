@@ -31,7 +31,7 @@ cus_css = """
         color: #333 !important;
         font-weight: bold !important;
         border-radius: 5px !important;
-        height: 52px !important; 
+        height: 40px !important; 
     }
     [data-testid="stAppViewContainer"] {
     background-color: #00008B;
