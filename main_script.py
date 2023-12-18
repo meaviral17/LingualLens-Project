@@ -170,6 +170,6 @@ if "image_path" in locals():
             st.error("Translation failed. Please try again later.")
     else:
         st.error("Text extraction failed.")
-
         
-    
+st.write("Developed by Aviral Srivastava.", size="small")
+
