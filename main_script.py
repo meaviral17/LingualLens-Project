@@ -49,11 +49,11 @@ trans_api_key = "adbba3a6ac6c4366be43766e7d8ea0aa"
 trans_api_region = "eastasia"
 
 # Streamlit app title and instructions
-st.title("Extractor Application")    
-
+st.title("LingualLens")    
+st.write("LinguaLens: Break language barriers effortlessly. Extract and translate text from images and documents with Azure-powered precision for global communication.", size="small")
 # First field for image upload
 st.subheader("Upload your files here")
-uploaded_file = st.file_uploader("OCR & Translator from Azure Cognitive Services", type=["jpg", "jpeg", "png", "pdf"])
+uploaded_file = st.file_uploader("Powered by Azure AI Computer Vision and Translator", type=["jpg", "jpeg", "png", "pdf"])
 
 if uploaded_file is not None:
     # Save the uploaded image to a temporary file
