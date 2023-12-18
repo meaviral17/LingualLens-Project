@@ -9,7 +9,7 @@ import numpy as np
 
 
 # Set the title of the tab
-st.set_page_config(page_title="Extraction Application")
+st.set_page_config(page_title="Lingual Lens")
 
 # Custom CSS style
 cus_css = """
@@ -49,11 +49,11 @@ trans_api_key = "adbba3a6ac6c4366be43766e7d8ea0aa"
 trans_api_region = "eastasia"
 
 # Streamlit app title and instructions
-st.title("LingualLens")    
-st.write("LinguaLens: Break language barriers effortlessly. Extract and translate text from images and documents with Azure-powered precision for global communication.", size="small")
+st.title("Lingual Lens")    
+st.write("Break language barriers effortlessly. Extract and translate text from images and documents with Azure-powered precision for global communication.", size="small")
 # First field for image upload
 st.subheader("Upload your files here")
-uploaded_file = st.file_uploader("Powered by Azure AI Computer Vision and Translator", type=["jpg", "jpeg", "png", "pdf"])
+uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png", "pdf"])
 
 if uploaded_file is not None:
     # Save the uploaded image to a temporary file
@@ -170,6 +170,10 @@ if "image_path" in locals():
             st.error("Translation failed. Please try again later.")
     else:
         st.error("Text extraction failed.")
-        
+
+
+st.write("", size="small")
+st.link_button("GitHub repository", "https://github.com/meaviral17/LingualLens-Project")
+st.write("", size="small")
 st.write("Developed by Aviral Srivastava.", size="small")
 
