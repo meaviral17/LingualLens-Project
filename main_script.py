@@ -53,8 +53,8 @@ trans_api_region = "eastasia"
 st.title("Lingual Lens")    
 st.write("Break language barriers effortlessly. Extract and translate text from images and documents with Azure-powered precision for global communication.", size="small")
 # First field for image upload
-st.subheader("Upload your files here")
-uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png", "pdf"])
+#st.subheader("Upload your files here")
+uploaded_file = st.file_uploader("Upload your files here", type=["jpg", "jpeg", "png", "pdf"])
 
 if uploaded_file is not None:
     # Save the uploaded image to a temporary file
