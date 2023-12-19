@@ -72,7 +72,7 @@ if "image_path" in locals():
     #os.remove(image_path)
     # Display the extracted text
     if extracted_text:
-        st.subheader("Extracted Text:")
+        st.subheader("Scanned Text:")
         #st.write(extracted_text)
         lines = extracted_text.split("\n")
         for line in lines:
@@ -162,7 +162,7 @@ if "image_path" in locals():
         if translation_response:
             # Display the translated text
             translated_text = translation_response[0]['translations'][0]['text']
-            st.subheader("Translated Text:")
+            st.subheader("Translation:")
             #st.write(translated_text)
             lines = translated_text.split("\n")
             for line in lines:
