@@ -143,7 +143,7 @@ if "image_path" in locals():
 
        # Third field for language selection
         target_languages = list(language_names.keys())  # Use the list of keys from the dictionary
-        target_language = st.selectbox("Select target language for translation",[language_names[code] for code in target_languages])
+        target_language = st.selectbox("\tSelect target language for translation",[language_names[code] for code in target_languages])
         for code in target_languages:
             if language_names[code]==target_language:
                 print(code)
