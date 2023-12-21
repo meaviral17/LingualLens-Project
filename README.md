@@ -9,7 +9,7 @@
 
 ## Key Features
 
-1. *Multilingual Text Recognition:* Utilize cutting-edge OCR technology to accurately recognize and extract text from images and documents in various formats, including JPEG, PNG, and PDF.
+1. *Multilingual Text Recognition:* Utilize cutting-edge OCR technology to accurately recognize text from images and documents in various formats, including JPEG, PNG, and PDF.
 2. *Translation Diversity:* Seamlessly translate extracted English text into over 50+ languages, promoting inclusive communication for individuals in diverse communities.
 3. *User-Friendly Interface:* Experience a smooth and intuitive interface designed for easy image uploads and document processing, ensuring accessibility for users of all technical backgrounds.
 4. *Streamlined Deployment:* LinguaLens is deployed effortlessly with Azure App Service, providing a scalable and reliable platform for managing the web application.
