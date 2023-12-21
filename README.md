@@ -10,12 +10,17 @@
 Lingual Lens is a transformative project that addresses the pervasive challenge of language barriers, aiming to redefine global communication. At its core, LinguaLens utilizes state-of-the-art technology, including Azure AI Computer Vision and Azure AI Translator, to extract and translate text from images and documents with unparalleled precision. This innovative web application is designed to empower individuals from marginalized communities, ensuring they can communicate effortlessly in their preferred language.
 
 The key features of LinguaLens include multilingual text recognition, supporting various image formats such as JPEG, PNG, and PDF. The project seamlessly integrates into Azure App Service, offering a scalable and reliable platform for web application deployment. The user-friendly interface, crafted with Streamlit, allows for intuitive image uploads and document processing, making LinguaLens accessible to users of all technical backgrounds. By fostering global collaboration and educational empowerment, LinguaLens goes beyond language translation; it creates a dynamic and inclusive environment where diverse communities can communicate effectively and bridge cultural divides. LinguaLens is not just a tool; it's a catalyst for positive change, breaking down language barriers and promoting a more interconnected world.
+
 ## Project Details
 ---
+
 ## Table of Contents
 * [Tech Stack](#Tech-Stack)
 * [Key Features](#Key-Features)
 * [Explaination of Azure Services Used](#Explaination-of-Azure-Services-Used)
+* [Clone and run this project](#Clone-and-run-this-project)
+* [Steps to use LingualLens](#Steps-to-use-LingualLens)
+
 ---
 ## Tech Stack
 
@@ -90,7 +95,7 @@ streamlit run main_script.py
 ```
 ---
 
-## Steps to use
+## Steps to use LingualLens
 1. Commence the process by initiating the upload of any image or PDF through the **Browse files** button.
 ![Commencement](Screenshots/s1.png)
 
