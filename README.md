@@ -43,4 +43,18 @@
 
 ## Run this project
 
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Run Streamlit app:
+```bash
+streamlit run main_script.py
+```
+
 ## Steps to use
