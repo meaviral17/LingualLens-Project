@@ -45,3 +45,38 @@
 
 
 ## Steps to use
+1. Commence the process by initiating the upload of any image or PDF through the **Browse files** button.
+![Commencement](Screenshots/s1.png)
+
+---
+2. Following the selection of the file, the **Azure AI Document Intelligence** engages in processing, culminating in the presentation of the extracted text below.
+![Text Extraction Process](Screenshots/sample.jpg)
+
+---
+3. Scrutinize the extracted text obtained from the provided image:
+![Extracted Content](Screenshots/s2.png)
+
+---
+4. Proceed by navigating downwards to opt for the preferred language for translation.
+5. Upon language selection, the **Azure AI Translator API** undertakes the translation process, showcasing the translated text underneath.
+![Extracted Content](Screenshots/menu.png)
+
+---
+6. Observe the translated text in the chosen languages, illustrated here with Hindi, Tamil, Spanish, and Greek options:
+---
+**a. Spanish**
+![Translation Outcome](Screenshots/spanish.png)
+
+---
+**b. Tamil**
+![Translation Outcome](Screenshots/tamil.png)
+
+---
+**c. Hindi**
+![Translation Outcome](Screenshots/hindi.png)
+
+---
+**d. Greek**
+![Translation Outcome](Screenshots/greek.png)
+
+---
