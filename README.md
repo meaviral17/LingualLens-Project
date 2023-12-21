@@ -7,7 +7,7 @@
 
 ## Project Description
 
-LinguaLens is a revolutionary project addressing the universal challenge of language barriers, leveraging advanced technology such as Azure AI Computer Vision and Azure AI Translator. This web application extracts and translates text from images and documents, empowering individuals in marginalized communities to communicate effortlessly in their preferred language.
+LingualLens is a revolutionary project addressing the universal challenge of language barriers, leveraging advanced technology such as Azure AI Computer Vision and Azure AI Translator. This web application extracts and translates text from images and documents, empowering individuals in marginalized communities to communicate effortlessly in their preferred language.
 
 Key features include multilingual text recognition for various image formats, seamless integration with Azure App Service for scalable deployment, and a user-friendly interface crafted with Streamlit. LingualLens transcends language translation, fostering global collaboration and educational empowerment. More than a tool, LingulaLens is a catalyst for positive change, breaking down language barriers and fostering a more interconnected world.
 
