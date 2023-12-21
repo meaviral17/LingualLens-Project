@@ -20,4 +20,4 @@
 
 9. *Real-Time Interaction:* Enjoy an interactive web app experience with Streamlit integration, providing real-time usage and feedback for enhanced user engagement.
 
-LinguaLens is not just a product; it's a solution designed to break down language barriers, promote inclusivity, and enrich communication globally.
+LingualLens is not just a product; it's a solution designed to break down language barriers, promote inclusivity, and enrich communication globally.
