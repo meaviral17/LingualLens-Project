@@ -7,9 +7,9 @@
 
 ## Project Description
 
-Lingual Lens is a transformative project that addresses the pervasive challenge of language barriers, aiming to redefine global communication. At its core, LinguaLens utilizes state-of-the-art technology, including Azure AI Computer Vision and Azure AI Translator, to extract and translate text from images and documents with unparalleled precision. This innovative web application is designed to empower individuals from marginalized communities, ensuring they can communicate effortlessly in their preferred language.
+LinguaLens is a revolutionary project addressing the universal challenge of language barriers, leveraging advanced technology such as Azure AI Computer Vision and Azure AI Translator. This web application extracts and translates text from images and documents, empowering individuals in marginalized communities to communicate effortlessly in their preferred language.
 
-The key features of LinguaLens include multilingual text recognition, supporting various image formats such as JPEG, PNG, and PDF. The project seamlessly integrates into Azure App Service, offering a scalable and reliable platform for web application deployment. The user-friendly interface, crafted with Streamlit, allows for intuitive image uploads and document processing, making LinguaLens accessible to users of all technical backgrounds. By fostering global collaboration and educational empowerment, LinguaLens goes beyond language translation; it creates a dynamic and inclusive environment where diverse communities can communicate effectively and bridge cultural divides. LinguaLens is not just a tool; it's a catalyst for positive change, breaking down language barriers and promoting a more interconnected world.
+Key features include multilingual text recognition for various image formats, seamless integration with Azure App Service for scalable deployment, and a user-friendly interface crafted with Streamlit. LingualLens transcends language translation, fostering global collaboration and educational empowerment. More than a tool, LingulaLens is a catalyst for positive change, breaking down language barriers and fostering a more interconnected world.
 
 ## Project Details
 ---
