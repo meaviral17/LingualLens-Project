@@ -8,7 +8,7 @@
 ## Project Description
 
 ## Project Details
-
+---
 ## Tech Stack
 
 - **Frontend:**
@@ -28,7 +28,7 @@
   - Git (for version control and collaborative development)
 - **Dependency Management:**
   - Python Pip (for managing Python package dependencies)
-
+---
 ## Key Features
 
 1. **Multilingual Text Recognition:** Utilize cutting-edge OCR technology to accurately recognize text from images and documents in various formats, including JPEG, PNG, and PDF.
@@ -38,11 +38,49 @@
 5. **Azure Integration:** Leverage the power of Azure AI Document Intelligence and Azure AI Translator for robust text detection, translation, and seamless integration with the LinguaLens application.
 6. **Global Collaboration:** Foster collaboration in a corporate setting by enabling smooth communication between colleagues who speak different languages.
 7. **Educational Empowerment:** Empower individuals from marginalized communities with access to information in their native language, potentially opening doors to educational opportunities and knowledge.
-
+---
 ## Explaination of Azure Services Used
 
-## Run this project
+### 1. Azure AI Translator
+- The Translator service plays a pivotal role in making the application globally accessible by translating extracted English text into multiple languages. This functionality eradicates language barriers, fostering effective communication and understanding among users with diverse language preferences.
 
+- The service operates by sending the extracted text, translating each line sequentially from English to the user's preferred language. The translated output, exemplified in JSON format, demonstrates the service's versatility.
+
+### 2. Azure Computer Vision
+- Incorporated for character extraction from images (PNG, JPEG), and PDFs, Azure Computer Vision excels in extracting text from diverse formats. Its advanced capabilities make it a vital component for processing scanned documents or images, with seamless integration into applications.
+
+- The Optical Character Recognition (OCR) feature within the Computer Vision Studio facilitates the extraction of intricate written text from various formats. The resulting text, exemplified in JSON format, showcases the service's proficiency in handling complex document structures.
+
+- Post-extraction, each line of text undergoes translation through the Azure Translator API, enhancing the application's multilingual functionality.
+
+### 3. Azure App Service
+- Functioning as the hosting platform for the application's user interface, Azure App Service streamlines deployment and ensures scalability. This service simplifies the development process by eliminating the need to manage underlying infrastructure, providing a reliable environment for Streamlit-based applications.
+
+- The deployment process involves pushing the entire code, covering extraction, translations, and the Streamlit web application, to GitHub. Upon successful code push, the GitHub project URL is provided to the Azure App service, triggering an automatic deployment process.
+
+### 4. Microsoft Azure Portal
+- Serves as the central hub for managing and monitoring the deployed application. The portal provides a comprehensive view of the application's status, including deployment details, making it a vital tool for overseeing the entire project.
+
+### 5. Visual Studio Code
+- Used as the primary integrated development environment (IDE) for coding and managing the project. Visual Studio Code streamlines the development process, offering a robust platform for coding, debugging, and version control.
+
+
+---
+## Clone and run this project
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
+2. Install the dependencies using pip command:
+```bash
+pip install -r requirements.txt
+```
+3. Run the Streamlit app script :
+```bash
+streamlit run main_script.py
+```
+---
 
 ## Steps to use
 1. Commence the process by initiating the upload of any image or PDF through the **Browse files** button.
