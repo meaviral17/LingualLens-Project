@@ -118,7 +118,7 @@ streamlit run main_script.py
 1. Commence the process by initiating the upload of any image or PDF through the **Browse files** button.
 ![Commencement](Screenshots/s1.png)
 ---
--> The WebApp also contains a side menu offering various functionalities like Rerun, Screen cast, Record, Print and Theme-related settings:
+-> The WebApp also contains a side menu offering various functionalities like Rerun, Record screencast, Print and Theme-related settings:
 
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/bb38361d-16a6-4e50-85a5-66d400523739)
 
