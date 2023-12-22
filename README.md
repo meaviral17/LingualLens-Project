@@ -68,9 +68,6 @@ Key features include multilingual text recognition for various image formats, se
 
 ### 3. Azure App Service
 - Functioning as the hosting platform for the application's user interface, Azure App Service streamlines deployment and ensures scalability. This service simplifies the development process by eliminating the need to manage underlying infrastructure, providing a reliable environment for Streamlit-based applications.
-- Given below is the resource group "azureintern", we have created to keep track of all Azure resources created for this project, and track their performance with a single dashboard interface.
-  
-![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/39bb1b07-3b75-4e71-aa33-6839514c6381)
 
 - As shown in the screenshot below, we can see the App Service "linguallens" we have created to deploy our project using Azure App Service in the East Asia sector. It is configured to a B1 App Service Plan.
 
@@ -89,6 +86,10 @@ Key features include multilingual text recognition for various image formats, se
 - Serves as the central hub for managing and monitoring the deployed application. The portal provides a comprehensive view of the application's status, including deployment details, making it a vital tool for overseeing the entire project.
   
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/144b1bd7-8d39-4d89-85d3-d0433e43a7df)
+
+- Given below is the resource group "azureintern", we have created to keep track of all Azure resources created for this project, and track their performance with a single dashboard interface.
+  
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/39bb1b07-3b75-4e71-aa33-6839514c6381)
 
 ### 5. Visual Studio Code
 - Used as the primary integrated development environment (IDE) for coding and managing the project. Visual Studio Code streamlines the development process, offering a robust platform for coding, debugging, and version control.
