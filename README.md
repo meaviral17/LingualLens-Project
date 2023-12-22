@@ -58,8 +58,8 @@ Key features include multilingual text recognition for various image formats, se
 
 - The service operates by sending the extracted text, translating each line sequentially from English to the user's preferred language. The translated output, exemplified in JSON format, demonstrates the service's versatility.
 
-### 2. Azure Computer Vision
-- Incorporated for character extraction from images (PNG, JPEG), and PDFs, Azure Computer Vision excels in extracting text from diverse formats. Its advanced capabilities make it a vital component for processing scanned documents or images, with seamless integration into applications.
+### 2. Azure AI Document Intelligence (Computer Vision)
+- Incorporated for character extraction from images (PNG, JPEG), and PDFs, Azure AI Document Intelligence (Computer Vision) excels in extracting text from diverse formats. Its advanced capabilities make it a vital component for processing scanned documents or images, with seamless integration into applications.
 
 - The Optical Character Recognition (OCR) feature within the Computer Vision Studio facilitates the extraction of intricate written text from various formats. The resulting text, exemplified in JSON format, showcases the service's proficiency in handling complex document structures.
 
