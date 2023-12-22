@@ -3,6 +3,7 @@
 [![GitHub Issues](https://img.shields.io/badge/issues-0_open-orange)](https://github.com/meaviral17/LingualLens-Project/issues)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green.svg)](https://github.com/meaviral17/LingualLens-Project)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Hits](https://hits.sh/github.com/meaviral17/hits.svg)](https://github.com/meaviral17/LingualLens-Project)
 
 ## Project Description
 
