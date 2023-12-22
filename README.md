@@ -73,9 +73,13 @@ Key features include multilingual text recognition for various image formats, se
 
 ### 4. Microsoft Azure Portal
 - Serves as the central hub for managing and monitoring the deployed application. The portal provides a comprehensive view of the application's status, including deployment details, making it a vital tool for overseeing the entire project.
+  
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/144b1bd7-8d39-4d89-85d3-d0433e43a7df)
 
 ### 5. Visual Studio Code
 - Used as the primary integrated development environment (IDE) for coding and managing the project. Visual Studio Code streamlines the development process, offering a robust platform for coding, debugging, and version control.
+  
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/ef58fe76-b57c-4e58-b87e-e4a2539fa0c9)
 
 
 ---
