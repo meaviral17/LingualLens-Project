@@ -7,7 +7,7 @@
 
 ## Project Description
 
-LingualLens is a revolutionary project addressing the universal challenge of language barriers, leveraging advanced technology such as Azure AI Computer Vision and Azure AI Translator. This web application extracts and translates text from images and documents, empowering individuals in marginalized communities to communicate effortlessly in their preferred language.
+Lingual Lens tackles the prevalent challenge of language barriers in global communication. The project is a response to the existing problem where individuals from non-English-speaking communities face difficulties in understanding English content in documents and images. By providing a seamless solution for text recognition and translation, Lingual Lens transforms this challenge into an opportunity for inclusive communication. It innovatively leverages Azure technologies, creating a novel solution that transcends traditional language barriers. The project's goal is to bridge linguistic divides, empower marginalized communities, and foster a more connected and inclusive global society.
 
 Key features include multilingual text recognition for various image formats, seamless integration with Azure App Service for scalable deployment, and a user-friendly interface crafted with Streamlit. LingualLens transcends language translation, fostering global collaboration and educational empowerment. More than a tool, LingulaLens is a catalyst for positive change, breaking down language barriers and fostering a more interconnected world.
 
@@ -59,17 +59,40 @@ Key features include multilingual text recognition for various image formats, se
 
 - The service operates by sending the extracted text, translating each line sequentially from English to the user's preferred language. The translated output, exemplified in JSON format, demonstrates the service's versatility.
 
+- Attached below are 2 examples which demonstrate how the input text is converted to a **request object**. Then, the AI Translator detects the language of the input, and converts the input string to the target language. This data is stored as the **response object**. (JSON objects)
+
+- **Example 1**
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/97f69205-8a3f-451c-ab4b-001f6ccd01fe)
+
+- **Example 2**
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/f95f129e-e09b-4be4-ae94-42be878a2bc5)
+
+
+
 ### 2. Azure AI Document Intelligence (Computer Vision)
 - Incorporated for character extraction from images (PNG, JPEG), and PDFs, Azure AI Document Intelligence (Computer Vision) excels in extracting text from diverse formats. Its advanced capabilities make it a vital component for processing scanned documents or images, with seamless integration into applications.
 
 - The Optical Character Recognition (OCR) feature within the Computer Vision Studio facilitates the extraction of intricate written text from various formats. The resulting text, exemplified in JSON format, showcases the service's proficiency in handling complex document structures.
 
 - Post-extraction, each line of text undergoes translation through the Azure Translator API, enhancing the application's multilingual functionality.
+  
+- **Case 1:** This is the home page of a popular open-source project. Notice how the text is getting recognised.
+
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/189b114e-d8d4-43c8-ae0b-523642949c70)
+
+- **Case 2:** This is an event poster. It demonstrates the utility of Azure AI Document Intelligence. 
+
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/df4d0b76-d508-402c-82a7-0ddd343e0fbb)
+
+- Attached below is the "vision1700" Computer Vision resource we have created for this project.
+  
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/c6f18148-4280-4be8-8240-7af1b6d8b30a)
+
 
 ### 3. Azure App Service
 - Functioning as the hosting platform for the application's user interface, Azure App Service streamlines deployment and ensures scalability. This service simplifies the development process by eliminating the need to manage underlying infrastructure, providing a reliable environment for Streamlit-based applications.
 
-- As shown in the screenshot below, we can see the App Service "linguallens" we have created to deploy our project using Azure App Service in the East Asia sector. It is configured to a B1 App Service Plan.
+- As shown in the screenshot below, we can see the App Service "linguallens" we have created to deploy our project using Azure App Service in the East Asia sector. It is configured to a **B1 App Service Plan**.
 
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/6dd8ed3d-f23a-4f66-9f8e-93762b7fb2a7)
 
@@ -77,8 +100,13 @@ Key features include multilingual text recognition for various image formats, se
 
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/93108a4f-bf2b-4dd3-9987-2f2b573d3cd7)
 
+- This is the startup configuration for "linguallens" in order to successfully start the deployed web app.
+
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/04455e49-7676-4183-9461-61ec46e04af9)
+
 - The deployment process involves pushing the entire code, covering text recognition, translations, and the Streamlit web application, to GitHub. Upon successful code push, the GitHub project URL is provided to the Azure App service, triggering an automatic deployment process.
 - The workflow run of the project deployment is attached below:
+  
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/9f1bcd5d-6efb-4be7-909b-a6f40aecdcbc)
 
 
