@@ -9,9 +9,9 @@
 
 Lingual Lens tackles the prevalent challenge of language barriers in global communication. The project is a response to the existing problem where individuals from non-English-speaking communities face difficulties in understanding English content in documents and images. By providing a seamless solution for text recognition and translation, Lingual Lens transforms this challenge into an opportunity for inclusive communication. It innovatively leverages Azure technologies, creating a novel solution that transcends traditional language barriers. The project's goal is to bridge linguistic divides, empower marginalized communities, and foster a more connected and inclusive global society.
 
-Key features include multilingual text recognition for various image formats, seamless integration with Azure App Service for scalable deployment, and a user-friendly interface crafted with Streamlit. LingualLens transcends language translation, fostering global collaboration and educational empowerment. More than a tool, LingulaLens is a catalyst for positive change, breaking down language barriers and fostering a more interconnected world.
-
 ## Project Details
+- [Project Demo URL]()
+- [Project Demo Video URL]()
 ---
 
 ## Table of Contents
@@ -51,7 +51,9 @@ Key features include multilingual text recognition for various image formats, se
 5. **Azure Integration:** Leverage the power of Azure AI Document Intelligence and Azure AI Translator for robust text detection, translation, and seamless integration with the LinguaLens application.
 6. **Global Collaboration:** Foster collaboration in a corporate setting by enabling smooth communication between colleagues who speak different languages.
 7. **Educational Empowerment:** Empower individuals from marginalized communities with access to information in their native language, potentially opening doors to educational opportunities and knowledge.
+
 ---
+
 ## Explaination of Azure Services Used
 
 ### 1. Azure AI Translator
@@ -67,6 +69,9 @@ Key features include multilingual text recognition for various image formats, se
 - **Example 2**
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/f95f129e-e09b-4be4-ae94-42be878a2bc5)
 
+- Attached below is the "translator1700" resource we have created for this project.
+  
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/af663c4b-c418-4182-be96-47ee81065348)
 
 
 ### 2. Azure AI Document Intelligence (Computer Vision)
@@ -106,7 +111,8 @@ Key features include multilingual text recognition for various image formats, se
 
 - The deployment process involves pushing the entire code, covering text recognition, translations, and the Streamlit web application, to GitHub. Upon successful code push, the GitHub project URL is provided to the Azure App service, triggering an automatic deployment process.
 - The workflow run of the project deployment is attached below:
-  
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/c5a7f02e-c552-46e4-b093-09a9ac87ead8)
+![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/3200d8e2-2fd0-48da-bbff-4667bab3652c)
 ![image](https://github.com/meaviral17/LingualLens-Project/assets/81246801/9f1bcd5d-6efb-4be7-909b-a6f40aecdcbc)
 
 
