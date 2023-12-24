@@ -1,7 +1,5 @@
 import requests
 import uuid
-
-
 def translate_text(api_key, api_region, text, target_languages):
     endpoint = "https://api.cognitive.microsofttranslator.com/"
     path = '/translate'
@@ -13,7 +11,6 @@ def translate_text(api_key, api_region, text, target_languages):
         'Content-type': 'application/json',
         'X-ClientTraceId': str(uuid.uuid4())
     }
-
     body = [{
         'text': text
     }]
@@ -23,10 +20,7 @@ def translate_text(api_key, api_region, text, target_languages):
         'from': 'en',
         'to': target_languages
     }
-
     request = requests.post(constructed_url, params=params, headers=headers, json=body)
     response = request.json()
-
     print(response)
     return response
-
