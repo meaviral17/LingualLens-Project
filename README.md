@@ -11,7 +11,6 @@ Lingual Lens tackles the prevalent challenge of language barriers in global comm
 
 ## Project Details
 - [Project Demo URL(deployment link)](https://linguallens.azurewebsites.net/)
-- [Project Demo Video URL](https://youtu.be/ZH-DyS2ZdKU)
 ---
 
 ## Table of Contents
