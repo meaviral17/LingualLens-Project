@@ -16,7 +16,6 @@ Lingual Lens tackles the prevalent challenge of language barriers in global comm
 ## Table of Contents
 * [Tech Stack](#Tech-Stack)
 * [Key Features](#Key-Features)
-* [Explaination of Azure Services Used](#Explaination-of-Azure-Services-Used)
 * [Clone and run this project](#Clone-and-run-this-project)
 * [Steps to use LingualLens](#Steps-to-use-LingualLens)
 
