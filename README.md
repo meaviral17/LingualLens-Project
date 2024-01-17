@@ -1,4 +1,5 @@
 <h1 align="center">The Lingual Lens Project</h1>
+
 [![GitHub Issues](https://img.shields.io/badge/issues-0_open-orange)](https://github.com/meaviral17/LingualLens-Project/issues)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green.svg)](https://github.com/meaviral17/LingualLens-Project)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -7,6 +8,7 @@
 ## Project Description
 
 Lingual Lens tackles the prevalent challenge of language barriers in global communication. The project is a response to the existing problem where individuals from non-English-speaking communities face difficulties in understanding English content in documents and images. By providing a seamless solution for text recognition and translation, Lingual Lens transforms this challenge into an opportunity for inclusive communication. It innovatively leverages Azure technologies, creating a novel solution that transcends traditional language barriers. The project's goal is to bridge linguistic divides, empower marginalized communities, and foster a more connected and inclusive global society.
+
 
 ## Project Details
 - [Project Demo URL(deployment link)](https://linguallens.azurewebsites.net/)
