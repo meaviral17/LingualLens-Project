@@ -202,6 +202,6 @@ st.write("", size="small")
 st.write("", size="small")
 st.write("", size="small")
 st.write("", size="small")
-st.markdown(get_st_button_a_tag('https://github.com/meaviral17/LingualLens-Project', 'GitHub Repository'), unsafe_allow_html=True)
-st.write("Developed by Aviral Srivastava.", size="small")
+st.markdown(get_st_button_a_tag('https://github.com/meaviral17', 'GitHub Profile'), unsafe_allow_html=True)
+st.write("Made with 🤍 by Aviral Srivastava.", size="small")
 
